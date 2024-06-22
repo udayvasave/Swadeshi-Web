@@ -38,10 +38,10 @@
 } */
 
 body{
-  /* background-color: #000; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #000;
+display: flex;
+align-items: center;
+justify-content: center;
   height: 100vh;
 }
 
@@ -51,4 +51,17 @@ body{
 
 .mainHeading{
   margin: 2rem 0rem;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 1rem;
 }

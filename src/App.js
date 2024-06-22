@@ -7,27 +7,23 @@ import React, { useState } from 'react';
 // import testBtn from './Components/testBtn';
 // import ButtonOne from './Components/ButtonOne';
 import Page from './Components/Page';
+// import Button from './Components/Button';
+import Title from './Components/Title';
+import SuccessAnimation from './Components/SuccessAnimation';
 
 
 function App() {
 
-const [isInputOpen, setIsInputOpen] =useState(false);
-
-const handleRequestAccess= ()=>{
-setIsInputOpen(true);
-}
-
-const handleCloseInput= ()=>{
-  setIsInputOpen(false);
-}
-
-const handleClick = () => {
-  alert('Button Clicked!');
-};
   return (
    
         <div className="App">
-          <Page />          
+        <div className='title'><Title /></div> 
+         <div className="button">
+         <Page />
+         </div>
+          
+        {/* <div> <SuccessAnimation /></div> */}
+
         </div>
    
   );
